@@ -1,0 +1,13 @@
+{
+    "content_scripts": [
+        {
+            "js": ["tabber.js"],
+            "matches": ["http://news.ycombinator.com/*"]
+        }
+                       ],
+    "name": "hacker_news_tab_opener",
+    "version": "1.0",
+    "desciption": "Opens HN articles in new tab",
+    "permissions":
+    ["tabs","news.ycombinator.com"]
+}
